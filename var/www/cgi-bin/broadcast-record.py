@@ -397,7 +397,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
                 event.mediaElement.play();
                 setTimeout(function() {
                     event.mediaElement.play();
-                }, 5000);
+                }, 45000)
             };
 
             function disableInputButtons() {
