@@ -18,19 +18,25 @@ var
 
 ----record.html
 
-----space
+----index2.html (space)
 
-----vids
+----js (space js)
 
-----vidsint
+----vids (for archivemovie.py)
 
-----movies
+----vidsint (for archivemovie.py)
+
+----movies (for archivemovie.pyand opencvvideostreamer)
 
 ----opencvvideosrtreamer #port 8000
 
 ------index.html
 
 ------server.py
+
+------templates
+
+--------index.html
 
 ----cgi-bin
 
