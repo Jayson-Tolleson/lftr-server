@@ -68,7 +68,7 @@ print ('''
 
   <!-- Obtain your own API key at:
              https://code.google.com/apis/console -->
-  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCEseay7iJ7jf8lnvZyz9rii6q4szW9Crk'>
+  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=''key'''>
   </script>''')
 
 
