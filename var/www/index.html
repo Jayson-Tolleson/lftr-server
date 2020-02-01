@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+<head>
+  <title>J^2</title>
+  <meta name="description" content="=100jay" />
+  <meta name="keywords" content="Music, Art, Forum" />
+  <meta http-equiv="content-type" content="text/html" />
+  <meta name="viewport" content="width=device-width, initial-scale=.5">
+</head>
+<style>
+.column {
+    float: left;
+    width: 50%
+}
+
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+body {
+        background: white }
+    section {
+        top: 3600px;
+}
+
+div#container3
+{	 background: black;
+ width: 50%;
+  margin: 0 auto;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+	width: 2200px;
+    height: 1200px;
+    overflow:hidden;     /* if you don't want a scrollbar, set to hidden */
+    overflow-x:hidden;   /* hides horizontal scrollbar on newer browsers */
+    /* resize and min-height are optional, allows user to resize viewable area */
+    -webkit-resize:vertical; 
+    -moz-resize:vertical;
+}
+div#container4
+{	 background: black;
+ width: 50%;
+
+  margin: 0 auto;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+	width: 3000px;
+    height: 3000px;
+    overflow:hidden;     /* if you don't want a scrollbar, set to hidden */
+    overflow-x:hidden;   /* hides horizontal scrollbar on newer browsers */
+    /* resize and min-height are optional, allows user to resize viewable area */
+    -webkit-resize:vertical; 
+    -moz-resize:vertical;
+}
+
+
+
+div#containervid
+{        background: black;
+ width: 50%;
+  margin: 0 auto;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        width: 3000px;
+    height: 2000px;
+    overflow:hidden;     /* if you don't want a scrollbar, set to hidden */
+    overflow-x:hidden;   /* hides horizontal scrollbar on newer browsers */
+    /* resize and min-height are optional, allows user to resize viewable area */
+    -webkit-resize:vertical;
+    -moz-resize:vertical;
+}
+
+
+div#container2
+{	 background: black;
+ width: 50%;
+  margin: 0 auto;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+	width: 1500px;
+    height: 1200px;
+    overflow:hidden;     /* if you don't want a scrollbar, set to hidden */
+    overflow-x:hidden;   /* hides horizontal scrollbar on newer browsers */
+    /* resize and min-height are optional, allows user to resize viewable area */
+    -webkit-resize:vertical; 
+    -moz-resize:vertical;
+    resize:vertical;
+ //   min-height:800px;
+}
+
+
+
+
+div#container
+{	 background: black;
+ width: 50%;
+  margin: 0 auto;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+	width: 1500px;
+    height: 2200px;
+    overflow:hidden;     /* if you don't want a scrollbar, set to hidden */
+    overflow-x:hidden;   /* hides horizontal scrollbar on newer browsers */
+    /* resize and min-height are optional, allows user to resize viewable area */
+    -webkit-resize:vertical; 
+    -moz-resize:vertical;
+    resize:vertical;
+ //   min-height:1600px;
+}
+
+iframe#embed
+{  
+    width:1500px;       /* set this to approximate width of entire page you're embedding */
+    height:1200px;      /* determines where the bottom of the page cuts off */
+    margin-left:400px; /* clipping left side of page */
+    margin-top:0px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
+
+iframe#embedvid 
+{
+    width:6000px;       /* set this to approximate width of entire page you're embedding */
+    height:6800px;      /* determines where the bottom of the page cuts off */
+    margin-left:-0px; /* clipping left side of page */
+    margin-top:0px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
+
+
+iframe#embed2
+{
+    width:1444px;       /* set this to approximate width of entire page you're embedding */
+    height:3400px;      /* determines where the bottom of the page cuts off */
+    margin-left:-0px; /* clipping left side of page */
+    margin-top:0px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
+iframe#embed3
+{
+    width:1444px;       /* set this to approximate width of entire page you're embedding */
+    height:3400px;      /* determines where the bottom of the page cuts off */
+    margin-left:-0px; /* clipping left side of page */
+    margin-top:0px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
+iframe#embed4
+{
+    width:1080px;       /* set this to approximate width of entire page you're embedding */
+    height:2400px;      /* determines where the bottom of the page cuts off */
+    margin-left:-0px; /* clipping left side of page */
+    margin-top:0px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
+#my-div
+{
+    width    : 1850px;
+    height   : 2200px;
+    overflow : hidden;
+    position : relative;
+}
+
+#my-iframe
+{
+    position : absolute;
+    top      : -1450px;
+    left     : -300px;
+    width    : 1850px;
+    height   : 4000px;
+}
+container {
+    margin: 0px auto;
+    width: 1500px;
+    border: 10px #333 solid;
+}
+videoElement {
+    width: 3200px;
+    height: 1600px;
+    background-color: #666;
+{height: 100%;}
+}
+  *
+ { margin:0px;
+   padding:0px;
+   color:#777;
+   }
+
+body
+{ font: normal 2.2em 'trebuchet ms', arial, sans-serif;
+  background: #1339de;
+  color: #777;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #000000;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h2, h3, h4, h5, h6 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h2
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: #A4AA04;}
+h3
+{  text-align: center;}
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 120% arial, sans-serif;
+  color: #A4AA04;}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  padding: 0 0 15px 0;
+  color: #000;}
+
+h6
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #1293EE;}
+
+a:hover
+{ text-decoration: none;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+
+#main
+{ background: #1339de;
+margin: 0; 
+  }
+
+#header
+{ background: #1339de	;
+  	}
+
+#logo
+{ width: 2560px;
+  height: 1440px;
+  background: #025587 url(logo.png) no-repeat;}
+
+#menubar
+{ 
+  width: 900px;
+  height: 220px;
+  background: #ff7f01 url(menu.png) repeat-x;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.2em;
+  font: normal 150% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 50px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #1C2C3E url(menu_select.png) repeat-x;}
+
+#site_content
+{ width: 3200px;
+  overflow: hidden;
+  background: #FFFFFF;} 
+#donate_content
+{ width: 900px;
+  overflow: hidden;
+  background: #ff7f01;} 
+
+.sidebar
+{ float: right;
+  width:1500px;
+  padding: 0 15px 20px 15px;}
+.sidebardonate
+{ float: right;
+  width: 250px;
+  padding: 0 15px 20px 15px;}
+
+.sidebar ul
+{ width: 178px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 40px;
+  display: block;
+  background: transparent url(link.png) no-repeat left center;} 
+
+.sidebar li a.selected
+{ color: #444;
+  text-decoration: none;} 
+
+#content
+{ text-align: left;
+  width: 3000 px;
+  padding: 20px 20px 20px 20px;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 12.2em;}
+
+#footer
+{ width: 3200px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 232px;
+  padding: 24px 0 5px 0;
+   	
+  text-align: center; 
+  background: #29425E url(footer.png) repeat-x;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: underline;}
+</style>
+<body>
+  <div id="main">
+
+        <div id="menubar">
+        <ul id="menu">
+	<div id="donate_content">
+		<h1>LFTR</h1><h1>        <a href="/index2.html">space</a>
+</h1>
+<div class="sidebardonate">
+<div>
+  <a class="donate-with-crypto"
+     href="https://commerce.coinbase.com">
+    <span>Donate with Crypto</span>
+  </a>
+  <script src="https://commerce.coinbase.com/v1/checkout.js">
+  </script>
+</div>
+
+</div></div>
+<div class="sidebardonate">
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="site_content">
+<div id="content">
+<section> 
+<div id="container3">
+<iframe id="embed" scrolling="no" src="https://lftr.biz:8000"></iframe>
+</div>
+</section>
+<section> 
+<div id="container3">
+<iframe id="embed" scrolling="no"  src="/movie/movie.mp4" autoplay controls><mediaheight=1200px width=2200px></media>
+</iframe>
+</div>
+</section>
+
+<div class="sidebar">
+
+
+<section> 
+<div id="container2">
+<iframe id="embed3" scrolling="no" src="/cgi-bin/broadcast-record.py#hello"></iframe>
+</div>
+</section>
+
+</div>
+
+
+<div id="content">
+
+<section> 
+<div id="container2">
+<iframe id="embed3" scrolling="no" src="/cgi-bin/broadcast-record2.py#hello2"></iframe>
+</div>
+</section> 
+</div>
+<div class="sidebar">
+
+<section> 
+<div id="container2">
+<iframe id="embed3" scrolling="no" src="/cgi-bin/hello.py"></iframe>
+</div>
+</section>
+
+</div>
+
+
+<div id="content">
+
+<section> 
+<div id="container2">
+<iframe id="embed3" scrolling="no" src="/cgi-bin/screen.py#11111111111111111"></iframe>
+</div>
+</section> 
+</div>
+<div id="content">
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+</section>
+</div>
+</div>
+</div>	
+</div>
+
+
+
+
+
+</body>
+</html>
