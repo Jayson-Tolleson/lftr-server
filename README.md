@@ -2,8 +2,16 @@
 my current python cgi devel environment
 filesystem in var
 
-## obtain a copy by
+## obtain a copy:
+
+cd
+
+sudo git clone https://github.com/Jayson-Tolleson/lftr-server.git
+
+cd lftr-server/www && sudo cp -r security /var && sudo cp -r www /var
+
 ## start server
+
 cd
 
 sudo nohup py5hon3 /var/www/webserver3.py &
