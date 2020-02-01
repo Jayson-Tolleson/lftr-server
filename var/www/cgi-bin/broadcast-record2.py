@@ -473,7 +473,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
                             return;
                         }
 
-                        setTimeout(reCheckRoomPresence, 5000);
+                        setTimeout(reCheckRoomPresence, 45000);
                    });
                 })();
 
