@@ -71,6 +71,8 @@ var
 
 --------testing
 
-----------android-gps-tracker-map.py
+----------android-gps-tracker-map.py (gps server)
+
+----------android-gps-signalling.py (gps client for android phone)
 
 ----------opencvbroadcast.py
