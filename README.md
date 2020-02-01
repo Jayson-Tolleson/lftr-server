@@ -2,6 +2,15 @@
 my current python cgi devel environment
 filesystem in var
 
+## obtain a copy by
+## start server
+cd
+
+sudo nohup py5hon3 /var/www/webserver3.py &
+
+sudo nohup python3 /var/www/opencvvideostreamer.py &
+
+## filesystem
 var
 
 --security
