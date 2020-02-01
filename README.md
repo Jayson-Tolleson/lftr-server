@@ -14,7 +14,7 @@ cd lftr-server/www && sudo cp -r security /var && sudo cp -r www /var
 
 cd
 
-sudo nohup py5hon3 /var/www/webserver3.py &
+sudo nohup python3 /var/www/webserver3.py &
 
 sudo nohup python3 /var/www/opencvvideostreamer.py &
 
