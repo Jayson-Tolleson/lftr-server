@@ -26,7 +26,7 @@ var
 
 ----vidsint (for archivemovie.py)
 
-----movies (for archivemovie.pyand opencvvideostreamer)
+----movie (for archivemovie.py and opencvvideostreamer)
 
 ----opencvvideosrtreamer #port 8000
 
