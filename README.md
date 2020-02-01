@@ -1,4 +1,4 @@
-# lftr-server
+# lftr-server : webrtc-broadcast and cgi development(python3)
 my current python cgi devel environment
 filesystem in var
 
